@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #main{
+        border: 1px solid red;
+        margin: auto;
+        padding: 2vh;
+    }
+
+    #sub1,#sub2,#sub3{
+        border: 1px solid green;
+        padding: 2vh;
+    }
+    #sub1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #winner{
+        border: 1px solid red;
+        margin: auto;
+        padding: 2vh;
+    }
+    label{
+        margin: auto;
+    }
+</style>
+<body>
+
+    <div id="main">
+
+        <div id="sub1">
+            <label>WINNER</label>
+            <div id="winner"></div>
+        </div>
+
+        <div id="sub2">
+            <div><label>MEMBER-1</label>    
+                <div id="member-1"></div></div>
+            <div> <label>MEMBER-2</label>
+                <div id="member-2"></div></div>
+            <div><label>MEMBER-3</label>
+                <div id="member-3"></div></div>
+            
+           
+            
+        </div>
+
+        <div id="sub3">
+          
+            <div id="dice">DICE</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
